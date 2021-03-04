@@ -1,0 +1,79 @@
+body{
+    background-color: #b9e8ff;
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+.container{
+    background-color: rgb(240, 240, 240);
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+.text {
+    margin:5px;
+    text-align: center;
+}
+.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between; 
+}
+.left-side {
+    flex-basis: 50%;
+    padding-right: 10px;
+}
+.left-side label {
+    float: right;
+}
+.right-side {
+    flex-basis: 50%;
+    padding-left: 10px;
+    float: left;
+}
+.right-side input{
+    border: 1px solid rgb(204, 201, 201);
+    border-radius: 5px;
+    width: 300px;
+}
+.right-side-radio, .right-side-checkbox{
+    flex-basis: 50%;
+    padding-left: 10px;
+    float: left;
+}
+.right-side-checkboxes {
+    flex-basis: 50%;
+    padding-left: 10px;
+    float: left;
+} 
+textarea {
+    resize: none;
+}
+/* .submit input{
+    color: cornsilk;
+    background-color:#61bdeb;
+    height: 35px;
+    width: 90px;
+    float: center;
+    border: 1px solid grey;
+    border-radius:5px;
+    margin: 25px 360px;
+} */
+.submit{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.submit input {
+    color: cornsilk;
+    background-color:#61bdeb;
+    height: 35px;
+    width: 90px;
+    border: 1px solid grey;
+    border-radius:5px;
+}

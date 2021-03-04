@@ -1,0 +1,72 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    margin: 0px;
+}
+.background {
+    background: url('../images/survey.jpeg');
+    background-size: cover;  
+    background-attachment: fixed;
+    object-fit: cover;
+} 
+.page-container:before { 
+    height: 100vh;
+    z-index: 1;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.page-container * {
+    margin: 0 auto; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+.heading {
+    margin:0 auto; 
+    padding-top: 20px;
+    height: 70px;
+    width: 600px;
+    color: white;
+    text-align: center;
+    background-color:rgb(127, 80, 238);
+    /* z-index: 3;  */
+}
+i {
+    padding-top: 10px;
+    font-size: 15px;
+}
+ .container {
+    background-color:rgb(58, 39, 104);
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    border-radius: 5px;
+    padding: 35px;
+ }
+ .row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: flex-start; 
+    color: white;
+ }
+ .row-el-up label{
+     color: white;
+    text-align: left;
+    float: left;
+    margin-bottom:5px;
+    margin-top:5px;
+ }
+ .row-el-down input{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    min-height: 25px;
+ }
+label[for="radio"] {
+    float: right;
+}

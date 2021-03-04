@@ -1,0 +1,50 @@
+body {
+    margin:0 auto; 
+}
+
+.top-section {
+    background: url('../images/sea.jpg');
+    background-size: cover;
+    height: 70vh;
+    background-position: bottom; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #a76536;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    color: #a76536;
+}
+
+.btn {
+    margin-top: 30px;
+    color: #a76536;
+    border: brown 1px solid;
+    background-color: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+.middle-section-brown {
+   background-color:  #a76536;
+   color: white;
+   padding: 15px 15px;
+}
+
+.middle-section-white {
+    color: #a76536;
+    padding: 15px 15px;
+    border-top: 1px solid rgb(250, 247, 247);
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+}

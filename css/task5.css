@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(247, 247, 247);
+}
+.container {
+    margin-top: 100px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 55px;
+    height: 55px;
+}
+.text {
+    margin: 10px;
+}
+.input {
+    height: 27px;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 211, 211);
+}
+.input-email {
+    margin-top: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.input-password {
+    margin-bottom: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-width: 0px;
+}
+.submit input{
+    margin-top: 10px;
+    background-color: #1a73e8;
+    width: 160px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+}
+.copyright {
+    margin-top: 25px;
+    color: rgb(151, 144, 144);
+}
